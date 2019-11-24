@@ -60,11 +60,6 @@ function magic() {
   createCards();
 }
 
-function cardflip() {
-  console.log("worked");
-}
-
-
 // Function to start the game by clearing the wrapper, creating
 // and appending the buttons and all the cards to the DOM
 function startGame() {
@@ -76,5 +71,3 @@ document.getElementById('start-game').addEventListener('click', startGame);
 document.getElementById('shuffle').addEventListener('click', shuffle);
 document.getElementById('show-hide').addEventListener('click', showhide);
 document.getElementById('magic').addEventListener('click', magic);
-cardclass.addEventListener('click', cardflip());
-document.querySelector('.card').click();
